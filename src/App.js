@@ -22,6 +22,7 @@ function App() {
             name={contact.name.first + " " + contact.name.last}
             email={contact.email}
             age={contact.dob.age}
+            nat={contact.nat}
           />
         ))}
       </div>

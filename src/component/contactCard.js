@@ -9,9 +9,9 @@ const ContactList = (props) => {
       <div className="user-details">
         <p>Name: {props.name}</p>
         <p>Email: {props.email}</p>
-
         <button onClick={() => setShowAge(!showAge)}>Toggle Gender</button>
         {showAge && <p>Age: {props.age}</p>}
+        <p>Nationality: {props.nat}</p>
       </div>
     </div>
   );
